@@ -1,23 +1,15 @@
 {
-  "name": "nodejs",
+  "name": "wetry",
   "version": "1.0.0",
   "description": "",
-  "main": "Hello.js",
-  "dependencies": {
-    "npm": "^6.9.0"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kong-Chen/taifood.git"
-  },
-  "author": "wenfu",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kong-Chen/taifood/issues"
-  },
-  "homepage": "https://github.com/Kong-Chen/taifood#readme"
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  }
 }
